@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Css Grid</title>
+    <style>
+      .father {
+        display: grid;
+        grid-template-columns: 300px 30px;
+        grid-template-rows: 20px 30px;
+        grid-gap: 5px;
+        grid-auto-flow: column;
+        grid-auto-columns: 50px;
+      }
+      .box {
+        background-color: #f1c40f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
