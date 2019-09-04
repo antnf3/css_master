@@ -1,0 +1,19 @@
+{
+  "name": "css_master",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antnf3/css_master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antnf3/css_master/issues"
+  },
+  "homepage": "https://github.com/antnf3/css_master#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
