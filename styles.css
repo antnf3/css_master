@@ -2,6 +2,16 @@
   background-color: red;
 } */
 
-li:not(.target) {
+/* li:not(.target) {
   background-color: blue;
+} */
+
+:root {
+  --commonColor: #f1c40f;
+  --commonBorder: 1px solid red;
+}
+
+li:first-child a {
+  background-color: var(--commonColor);
+  border: var(--commonBorder);
 }
