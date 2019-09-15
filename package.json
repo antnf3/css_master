@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/antnf3/css_master#readme",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel practiceProject/1/index.html"
   },
   "dependencies": {
     "postcss-preset-env": "^6.7.0"

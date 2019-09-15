@@ -1,0 +1,147 @@
+:root {
+  --colorOne: #d0edf5;
+  --colorTwo: #e2f0d6;
+  --colorThree: #fcf8b9;
+  --colorFour: #ebebeb;
+  --colorFive: #fdc3c2;
+  --colorSix: #fdf9ba;
+  --colorSeven: #ffef8b;
+}
+
+.three-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 20vw);
+  justify-content: center;
+}
+.header {
+  grid-template-rows: 200px;
+}
+
+.header-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-column:last-child {
+  justify-content: flex-start;
+}
+
+.header-nav {
+  list-style: none;
+}
+.header-nav span {
+  display: block;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+  text-transform: uppercase;
+}
+
+.header li {
+  margin-top: 5px;
+}
+.master {
+  grid-auto-rows: 30vh;
+  grid-gap: 10px;
+}
+
+.three-row {
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  grid-template-columns: 1fr;
+}
+.two-row {
+  display: grid;
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 1fr;
+}
+.grid-column .grid-column-nav {
+  align-self: center;
+}
+.grid-column-nav span {
+  font-size: 14px;
+  border-bottom: 1px solid gray;
+}
+.grid-column-content .title {
+  font-size: 28px;
+  font-weight: 700;
+}
+.grid-column-content p {
+  line-height: 0.4;
+}
+
+.grid-column-footer span {
+  border-bottom: 1px solid gray;
+}
+
+.grid-column {
+  background-position: center;
+  background-size: cover;
+  text-indent: 30px;
+}
+
+.grid-column:first-child {
+  background-color: var(--colorOne);
+  grid-row: 1 / 3;
+}
+
+.grid-column:nth-child(2) {
+  grid-area: span 2 / span 2;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5373b147e4b0e5824b359a50/1499413739930-N3S718IX5O2XCK1XX44E/ke17ZwdGBToddI8pDm48kGXuwhHa7x8Jn1cmn2xeUmRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIeX4uU_ElXq2yJfDTRwNR32wzBeyDl5KNsu--KqOTN60KMshLAGzx4R3EDFOm1kBS/image-asset.jpeg?format=750w);
+}
+
+.grid-column:nth-child(3) {
+  background-color: var(--colorTwo);
+}
+
+.grid-column:nth-child(4) {
+  grid-row: span 2;
+  background-image: url(https://png.pngtree.com/element_origin_min_pic/16/08/05/1057a3fbc1ee4f7.jpg);
+  background-position: center;
+}
+
+.grid-column:nth-child(5) {
+  background-color: var(--colorThree);
+}
+
+.grid-column:nth-child(6) {
+  background-color: var(--colorFour);
+}
+
+.grid-column:nth-child(7) {
+  background-image: url(https://png.pngtree.com/element_origin_min_pic/16/10/14/215800e4ad6003a.jpg);
+}
+
+.grid-column:nth-child(8) {
+  grid-area: span 2 / span 2;
+  background-color: var(--colorFive);
+}
+
+.grid-column:nth-child(9) {
+  grid-row: span 2;
+  background-image: url(https://data.whicdn.com/images/333492961/large.jpg);
+}
+
+.grid-column:nth-child(10) {
+  grid-area: span 2 / span 2;
+  background-image: url(https://i.pinimg.com/originals/f0/00/ca/f000ca57d540e80f90ef85f9d6f943b3.jpg);
+}
+
+.grid-column:nth-child(11) {
+  background-image: url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-big-sale-with-light-effect-on-black-background-png-image_3599681.jpg);
+}
+
+.grid-column:nth-child(12) {
+  background-image: url(https://png.pngtree.com/png-clipart/20190603/original/pngtree-beautiful-stars-png-image_193326.jpg);
+}
+.grid-column:nth-child(13) {
+  grid-area: span 2 / span 2;
+  background-color: var(--colorTwo);
+}
+.grid-column:nth-child(14) {
+  background-image: url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-ink-landscape-waterfall-cloud-temple-national-wind-hand-drawn-elements-mountaincloudwaterfalltemplechinese-png-image_4076389.jpg);
+}
+
+.grid-column:nth-child(15) {
+  background-color: var(--colorSix);
+}

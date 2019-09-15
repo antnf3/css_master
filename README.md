@@ -34,3 +34,7 @@ I also recorded how to install : https://youtu.be/2LGVDxoRdN0
   background-color: var(--commonColor);
   border: var(--commonBorder);
   }
+
+## 이미지 가져오기
+
+https://www.pinterest.co.kr/
